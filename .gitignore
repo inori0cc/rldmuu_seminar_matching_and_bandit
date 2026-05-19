@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+.claude/
+
+# Build
+build/
+dist/
+
+# Temp/local
+tmp/
+*.tmp
+*.log
+
+# Results: keep .npz data, drop slurm logs
+results/**/logs/
+results/**/logs_*/
+results/**/slurm-*.out
+results/**/slurm-*.err
+
+# Docs and aggregated outputs (excluded per user)
+docs/
+CLAUDE.md
+README.md
+aggregated/
+figures/
+configs/
+slurm/
