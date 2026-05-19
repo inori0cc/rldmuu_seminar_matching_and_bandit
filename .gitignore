@@ -26,11 +26,11 @@ tmp/
 *.tmp
 *.log
 
-# Results: keep .npz data, drop slurm logs
-results/**/logs/
-results/**/logs_*/
-results/**/slurm-*.out
-results/**/slurm-*.err
+# Results (experiments, excluded per user)
+results/
+
+# Tests (excluded per user)
+tests/
 
 # Docs and aggregated outputs (excluded per user)
 docs/
