@@ -46,12 +46,6 @@ extension_experiments.py       Runs the extension experiments
 summarize_extension_results.py Summarizes saved results into tables
 ```
 
-Optional files:
-
-```text
-config.py                      General project configuration, not required for this extension
-quick_two_sided_check.py       Optional smoke test / debugging script
-```
 
 ## Algorithms compared
 
