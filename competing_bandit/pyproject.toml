@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matching-bandits-replication"
+version = "0.1.0"
+description = "Replication of Liu, Mania, Jordan (2020), Competing Bandits in Matching Markets."
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["error"]

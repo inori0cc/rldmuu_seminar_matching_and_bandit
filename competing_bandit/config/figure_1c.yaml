@@ -1,0 +1,11 @@
+experiment: figure_1c
+algorithm: centralized_ucb
+N: 20
+K: 20
+horizon: 8000
+n_trials: 50
+seed: 20240103
+gap: 0.1
+plot:
+  yscale: linear
+  agents_to_show: [0, 4, 9, 14, 19]  # ranks 1, 5, 10, 15, 20 (1-indexed in paper)

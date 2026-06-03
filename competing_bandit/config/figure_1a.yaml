@@ -1,0 +1,14 @@
+experiment: figure_1a
+algorithm: centralized_ucb
+N: 2
+K: 2
+horizon: 400
+n_trials: 100
+seed: 20240101
+delta_grid:
+  start: 0.05    # excludes 0 since Market requires strict preferences
+  stop: 1.0
+  num: 20        # 0.05, 0.10, ..., 1.00
+plot:
+  yscale: log
+  agents_to_show: [0, 1]

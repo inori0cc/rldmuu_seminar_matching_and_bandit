@@ -1,0 +1,11 @@
+experiment: figure_1b
+algorithm: centralized_ucb
+N: 3
+K: 3
+horizon: 200
+n_trials: 100
+seed: 20240102
+p3_gap: 0.05
+plot:
+  yscale: linear
+  agents_to_show: [0, 1, 2]
